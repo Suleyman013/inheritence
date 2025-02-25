@@ -3,11 +3,9 @@ class Mercedes extends vehicle {
 
     // Constructor
     public Mercedes(String model) {
-        super("Mercedes"); // Avtomobil classının constructorunu çağırır
+        super("Mercedes"); 
         this.model = model;
     }
-
-    // Abstract metodun implementasiyası
     @Override
     public String getInfo() {
         return "It is  " + getMarka() + " car, model: " + model;
