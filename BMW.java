@@ -1,9 +1,7 @@
 class BMW extends vehicle {
     private String model;
-
-    // Constructor
     public BMW(String model) {
-        super("BMW"); // Avtomobil classının constructorunu çağırır
+        super("BMW"); 
         this.model = model;
     }
     @Override
